@@ -1,7 +1,7 @@
 import requests, sys, webbrowser, bs4
 
 filename = "doctorlist.csv"
-headers = "Name,Type,Gender,Address1,City,PINCODE,PhoneNumber\n"
+headers = "Name,Type,Gendner,Address1,City,PINCODE,PhoneNumber\n"
 f = open(filename,"w")
 f.write(headers)
 f.close()
